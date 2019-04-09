@@ -1,0 +1,1 @@
+{config-git-client: 'http://localhost:8989/miya', service-feign-hystrix: 'http://localhost:8989/miya'}
