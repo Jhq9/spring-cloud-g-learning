@@ -1,0 +1,28 @@
+server:
+  port: 8181
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    #    hostname: 192.168.1.98
+    preferIpAddress: true
+    #    心跳检测检测与续约时间,测试时将值设置设置小些，保证服务关闭后注册中心能及时踢出服务(客户端配置)
+    #    测试时将值设置设置小些，保证服务关闭后注册中心能及时踢出服务
+    lease-renewal-interval-in-seconds: 1
+    #    告诉服务端，如果我2s之内没有给你发心跳，就代表我“死”了，将我踢出掉。
+    lease-expiration-duration-in-seconds: 2
+spring:
+  application:
+    name: service-hi-hystrix-dashboard
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+endpoints:
+  restart:
+    enabled: true

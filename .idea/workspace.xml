@@ -4,7 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/service-ribbon/src/main/java/may/i/jhq/serviceribbon/ServiceRibbonApplication.java" description="    @Autowired&#10;    private HelloService helloServi..." line="29" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdd9f98f-5af1-4746-9780-6923f8ebb6b0" name="Default Changelist" comment="" />
+    <list default="true" id="bdd9f98f-5af1-4746-9780-6923f8ebb6b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97c377ff2c2da625324e47081796c640857ae7d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/config/target/" />
@@ -34,6 +42,7 @@
     <ignored path="$PROJECT_DIR$/websocket-server/target/" />
     <ignored path="$PROJECT_DIR$/service-gateway-websocket/target/" />
     <ignored path="$PROJECT_DIR$/consul-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/service-hi-hystrix-dashboard/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +69,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/consul-config-server/src/main/java/may/i/jhq/consulconfigserver/ConsulConfigServerApplication.java">
+        <entry file="file://$PROJECT_DIR$/service-hi-hystrix-dashboard/src/main/resources/application.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -90,12 +95,12 @@
       <find>server</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service-zipkin-client/pom.xml" />
-        <option value="$PROJECT_DIR$/service-zipkin-client/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/service-zipkin-client/src/main/java/may/i/jhq/servicezipkinclient/ServerZipkinApplication.java" />
         <option value="$PROJECT_DIR$/service-zipkin-client-hi/pom.xml" />
         <option value="$PROJECT_DIR$/service-zipkin-client-hi/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/service-zipkin-client-miya/src/main/resources/application.yaml" />
@@ -144,6 +149,9 @@
         <option value="$PROJECT_DIR$/consul-config-server/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/consul-config-server/src/main/resources/bootstrap.yaml" />
         <option value="$PROJECT_DIR$/consul-config-server/src/main/java/may/i/jhq/consulconfigserver/ConsulConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/service-hi-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/service-hi-hystrix-dashboard/src/main/java/may/i/jhq/servicehihystrixdashboard/ServiceHiHystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/service-hi-hystrix-dashboard/src/main/resources/application.yaml" />
       </list>
     </option>
   </component>
@@ -168,9 +176,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1950" />
-    <option name="height" value="1110" />
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -183,6 +194,32 @@
             <path>
               <item name="spring-cloud-g" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-g" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-g" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-g" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-g" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-g" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-g" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-g" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-g" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-g" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,6 +235,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-server/src/main/resources" />
@@ -243,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsulConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceHiHystrixDashboardApplication">
     <configuration name="AdminClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="admin-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="may.i.jhq.adminclient.AdminClientApplication" />
@@ -407,6 +445,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceHiHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-hi-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="may.i.jhq.servicehihystrixdashboard.ServiceHiHystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="may.i.jhq.serviceribbon.ServiceRibbonApplication" />
@@ -463,6 +508,7 @@
       <item itemvalue="Spring Boot.WebsocketServerApplication" />
       <item itemvalue="Spring Boot.ServiceGatewayWebsocketApplication" />
       <item itemvalue="Spring Boot.ConsulConfigServerApplication" />
+      <item itemvalue="Spring Boot.ServiceHiHystrixDashboardApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -484,17 +530,18 @@
       <workItem from="1554644487817" duration="636000" />
       <workItem from="1554683823495" duration="24990000" />
       <workItem from="1554724309858" duration="12000" />
-      <workItem from="1554771819719" duration="8027000" />
+      <workItem from="1554771819719" duration="9677000" />
+      <workItem from="1554787863811" duration="1947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72531000" />
+    <option name="totallyTimeSpent" value="76128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4972826" visible="true" weight="0.2897574" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4972826" visible="true" weight="0.2944744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.5027174" side_tool="true" weight="0.25" />
@@ -506,14 +553,14 @@
       <window_info id="Sudoku" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932614" weight="0.43597123" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932614" visible="true" weight="0.43309352" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49932614" visible="true" weight="0.37553957" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932614" weight="0.37553957" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067383" side_tool="true" weight="0.4374101" />
@@ -552,33 +599,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-gateway-filter/src/main/java/may/i/jhq/servicegatewayfilter/ServiceGatewayFilterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-gateway-filter/src/main/java/may/i/jhq/servicegatewayfilter/RequestTimeGatewayFilterFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-gateway-filter/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/repository/org/springframework/cloud/spring-cloud-gateway-core/2.1.1.RELEASE/spring-cloud-gateway-core-2.1.1.RELEASE.jar!/META-INF/additional-spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://E:/maven/repository/org/springframework/cloud/spring-cloud-gateway-core/2.1.1.RELEASE/spring-cloud-gateway-core-2.1.1.RELEASE.jar!/META-INF/scripts/request_rate_limiter.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
@@ -933,12 +953,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consul-config-server/src/main/java/may/i/jhq/consulconfigserver/ConsulConfigServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-hystrix-dashboard/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="36" column="75" lean-forward="true" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-hystrix-dashboard/src/main/java/may/i/jhq/servicehihystrixdashboard/ServiceHiHystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-hystrix-dashboard/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
         </state>
       </provider>
     </entry>
