@@ -38,6 +38,7 @@
         <option value="$PROJECT_DIR$/service-gateway-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/consul-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/service-hi-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-hello/pom.xml" />
       </list>
     </option>
   </component>

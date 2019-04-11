@@ -113,3 +113,7 @@ w
 Gwebsocket-server/src/main/java/may/i/jhq/websocketserver/MessageVO.java,c\8\c8ec08866f6dddfe18aba3ad86733af36e9effc3
 ’
 bconsul-config-server/src/main/java/may/i/jhq/consulconfigserver/ConsulConfigServerApplication.java,c\a\cafe7b65a2d146a0fa9c0815dc1e3840635e6f66
+T
+$service-hi-hystrix-dashboard/pom.xml,f\6\f697905dd94e9d21971b7060bbc4b6b36c8596f8
+¨
+xservice-hi-hystrix-dashboard/src/main/java/may/i/jhq/servicehihystrixdashboard/ServiceHiHystrixDashboardApplication.java,b\5\b5fac0fc02c90ad571417c1d479c0ce5940f02b4

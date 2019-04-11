@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
         <module name="admin-client" />
         <module name="config-git-client" />
         <module name="consul-config-server" />
@@ -14,21 +15,21 @@
         <module name="service-gateway-predict" />
         <module name="service-hi" />
         <module name="service-zipkin-client-miya" />
+        <module name="service-ribbon" />
+        <module name="consul-consumer" />
         <module name="spring-cloud-g" />
         <module name="admin-server" />
         <module name="config-git-server" />
         <module name="service-zipkin-client-hi" />
-        <module name="service-ribbon" />
         <module name="consul-provider" />
         <module name="service-gateway" />
         <module name="service-feign-hystrix" />
-        <module name="eureka-server" />
+        <module name="stream-hello" />
         <module name="service-feign" />
         <module name="config-jdbc-client" />
         <module name="service-ribbon-hystrix" />
-        <module name="service-gateway-rate-limiter" />
         <module name="service-hi-hystrix-dashboard" />
-        <module name="consul-consumer" />
+        <module name="service-gateway-rate-limiter" />
         <module name="websocket-server" />
         <module name="service-gateway-websocket" />
       </profile>
@@ -59,6 +60,7 @@
       <module name="service-ribbon-hystrix" options="-parameters" />
       <module name="service-zipkin-client-hi" options="-parameters" />
       <module name="service-zipkin-client-miya" options="-parameters" />
+      <module name="stream-hello" options="-parameters" />
       <module name="websocket-server" options="-parameters" />
     </option>
   </component>

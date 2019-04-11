@@ -25,6 +25,7 @@
     <file url="file://$PROJECT_DIR$/service-gateway-websocket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-hi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-hi-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-hi-hystrix-dashboard/src/main/resources/application.yaml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-hi/src/main/resources/application.yaml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ribbon-hystrix" charset="UTF-8" />
@@ -32,6 +33,8 @@
     <file url="file://$PROJECT_DIR$/service-ribbon/src/main/resources/application.yaml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-zipkin-client-hi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-zipkin-client-miya" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-hello" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/websocket-server" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>
