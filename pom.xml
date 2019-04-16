@@ -8,6 +8,34 @@
     <artifactId>spring-cloud-g</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>admin-client</module>
+        <module>admin-server</module>
+        <module>config-git-client</module>
+        <module>config-git-server</module>
+        <module>config-jdbc-client</module>
+        <module>config-jdbc-server</module>
+        <module>consul-config-server</module>
+        <module>consul-consumer</module>
+        <module>consul-provider</module>
+        <module>eureka-server</module>
+        <module>service-feign</module>
+        <module>service-feign-hystrix</module>
+        <module>service-gateway</module>
+        <module>service-gateway-filter</module>
+        <module>service-gateway-predict</module>
+        <module>service-gateway-rate-limiter</module>
+        <module>service-gateway-websocket</module>
+        <module>service-hi</module>
+        <module>service-hi-hystrix-dashboard</module>
+        <module>service-ribbon</module>
+        <module>service-ribbon-hystrix</module>
+        <module>service-zipkin-client-hi</module>
+        <module>service-zipkin-client-miya</module>
+        <module>stream-hello</module>
+        <module>websocket-server</module>
+    </modules>
+
     <dependencies>
         <!-- jaxb模块引用 - start -->
         <dependency>
