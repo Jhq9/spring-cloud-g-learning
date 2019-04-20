@@ -5,12 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>may.i.jhq</groupId>
-    <artifactId>spring-cloud-g</artifactId>
+    <artifactId>spring-cloud-g-learning</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
         <module>admin-client</module>
         <module>admin-server</module>
+        <module>alibaba-nacos-discovery-client-common</module>
+        <module>alibaba-nacos-discovery-client-feign</module>
+        <module>alibaba-nacos-discovery-client-resttemplate</module>
+        <module>alibaba-nacos-discovery-client-webclient</module>
+        <module>alibaba-nacos-discovery-server</module>
         <module>config-git-client</module>
         <module>config-git-server</module>
         <module>config-jdbc-client</module>
