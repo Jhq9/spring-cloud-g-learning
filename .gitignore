@@ -103,7 +103,6 @@ hs_err_pid*
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-
 # Sensitive or high-churn files
 .idea/**/dataSources/
 .idea/**/dataSources.ids
@@ -172,4 +171,6 @@ buildNumber.properties
 
 # Used by previous versions of JEnv
 .jenv-version
+
+**/.mvn/
 
