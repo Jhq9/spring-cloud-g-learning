@@ -16,6 +16,7 @@
         <module>alibaba-nacos-discovery-client-resttemplate</module>
         <module>alibaba-nacos-discovery-client-webclient</module>
         <module>alibaba-nacos-discovery-server</module>
+        <module>alibaba-sentinel-rate-limiting</module>
         <module>config-git-client</module>
         <module>config-git-server</module>
         <module>config-jdbc-client</module>
